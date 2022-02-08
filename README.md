@@ -21,4 +21,4 @@ Install-Package ctorx.Core.AspNet.Cookies
 ```
 
 ## License, etc.
-ctorx.Core.Mvc.Cookies is copyright © 2022 Matthew Marksbury and other contributors under the MIT license.
+ctorx.Core.AspNet.Cookies is copyright © 2022 Matthew Marksbury and other contributors under the MIT license.
