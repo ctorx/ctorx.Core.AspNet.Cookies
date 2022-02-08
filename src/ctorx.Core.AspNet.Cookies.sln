@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ctorx.Core.AspNet.Cookies", "ctorx.Core.AspNet.Cookies.csproj", "{EFD6F472-10C9-43F9-B7D2-2BBD01FB6995}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD6F472-10C9-43F9-B7D2-2BBD01FB6995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD6F472-10C9-43F9-B7D2-2BBD01FB6995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD6F472-10C9-43F9-B7D2-2BBD01FB6995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD6F472-10C9-43F9-B7D2-2BBD01FB6995}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3CCC4A-4547-4000-9626-950731283677}
+	EndGlobalSection
+EndGlobal

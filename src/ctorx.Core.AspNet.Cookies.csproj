@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<VersionPrefix>1.0.1</VersionPrefix>
+		<TargetFrameworks>net5.0</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<WarningsAsErrors>CS8600;CS8601;CS8602;CS8603;CS8613;CS8625;CS8629;CS8614;CS8618;CS8619;CS8633</WarningsAsErrors>
+		<AssemblyName>ctorx.Core.AspNet.Cookies</AssemblyName>
+		<PackageId>ctorx.Core.AspNet.Cookies</PackageId>
+		<Authors>Matthew Marksbury</Authors>
+		<Description>Simple Cookie Manager for ASP.NET</Description>
+		<PackageTags></PackageTags>
+		<PackageProjectUrl>https://github.com/ctorx/ctorx.Core.AspNet.Cookies/</PackageProjectUrl>
+		<PackageLicenseUrl>https://github.com/ctorx/ctorx.Core.Mvc.Cookies/master/LICENSE</PackageLicenseUrl>
+		<Copyright>Copyright (c) 2022 Matthew Marksbury</Copyright>
+		<Version>2.0.0</Version>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<AssemblyVersion>2.0.0.0</AssemblyVersion>
+		<FileVersion>2.0.0.0</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Update="NETStandard.Library" Version="1.3.0" />
+	</ItemGroup>
+
+</Project>
+
+
+
+
+
+
+

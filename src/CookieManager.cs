@@ -1,15 +1,12 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace ctorx.Core.Mvc.Cookies
+namespace ctorx.Core.AspNet.Cookies
 {
-    public class DefaultCookieManager : ICookieManager
+    public class CookieManager
     {
-        private readonly IHttpContextAccessor HttpContextAccessor;
+        readonly IHttpContextAccessor HttpContextAccessor;
 
-        /// <summary>
-        /// ctor the Mighty
-        /// </summary>
-        public DefaultCookieManager(IHttpContextAccessor httpContextAccessor)
+        public CookieManager(IHttpContextAccessor httpContextAccessor)
         {
             this.HttpContextAccessor = httpContextAccessor;
         }
@@ -26,7 +23,7 @@ namespace ctorx.Core.Mvc.Cookies
         /// <summary>
         /// Sets a cookie
         /// </summary>
-        public void Set(string cookieKey, string cookieValue, CookieOptions options = null)
+        public void Set(string cookieKey, string cookieValue, CookieOptions? options = null)
         {
             var context = this.HttpContextAccessor.HttpContext;
             if(options != null)
