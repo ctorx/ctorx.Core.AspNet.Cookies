@@ -1,4 +1,4 @@
-# ctorx.Core.Mvc.Cookies
+# ctorx.Core.AspNet.Cookies
 This might very well be the smallest and simplest Github repository.
 
 
@@ -14,21 +14,11 @@ Use the extension method like this:
 services.AddCookieManagement();
 ```
 
-Or, if you must, you can wire it up cowboy style like this:
-
-```csharp
-services.AddScoped<ICookieManager, DefaultCookieManager>();
-```
-
 ## Where can I get it?
-Install from [Nuget](https://www.nuget.org/packages/ctorx.Core.Mvc.Cookies/) 
+Install from [Nuget](https://www.nuget.org/packages/ctorx.Core.AspNet.Cookies/) 
 ```
-Install-Package ctorx.Core.Mvc.Cookies
+Install-Package ctorx.Core.AspNet.Cookies
 ```
 
 ## License, etc.
-ctorx.Core.Mvc.Cookies is copyright © 2017 Matthew Marksbury and other contributors under the MIT license.
-
-
-## Roadmap
-There is no roadmap at this time
+ctorx.Core.Mvc.Cookies is copyright © 2022 Matthew Marksbury and other contributors under the MIT license.
